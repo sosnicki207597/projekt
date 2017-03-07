@@ -6,7 +6,9 @@ package in.evils.majkel;
  */
 public class App {
     public static void main(String[] args) {
+        printMichal();
         System.out.println(test());
+        method();
     }
 
     public static void printMichal() {
@@ -15,5 +17,9 @@ public class App {
 
     private static String test() {
         return "D\\/P/\\";
+    }
+
+    public static void method() {
+        System.out.println( "Hello siusiaki!!" );
     }
 }
