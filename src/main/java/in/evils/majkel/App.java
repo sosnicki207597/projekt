@@ -6,8 +6,11 @@ package in.evils.majkel;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public static void main( String[] args ) {
+        method();
+    }
+
+    public static void method() {
+        System.out.println( "Hello siusiaki!!" );
     }
 }
